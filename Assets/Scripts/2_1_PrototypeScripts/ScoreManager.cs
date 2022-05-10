@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class ScoreManager : MonoBehaviour
 {
-    public GameObject animal;
-    public GameObject player;
-    private int lives = 3;
-    private int score = 0;
+
+    public int lives = 5;
+    public int score = 0;
 
 
     // Start is called before the first frame update
@@ -26,6 +25,18 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        ScoreDisplay();
+    }
+
+    public void ScoreDisplay()
+    {
+        if(lives > 0)
+        {
+            Debug.Log("Player Lives: " + lives + " Player Score: " + score);
+        }else
+        {
+            Debug.Log("Game Over");
+        }
         
     }
 }

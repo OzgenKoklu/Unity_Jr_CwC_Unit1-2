@@ -1,11 +1,6 @@
 # Unity Learn JR pathway
 Unity Learn JR path is awesome, I would suggest it to anyone who wants to learn how to make games. It does also give important tips and tricks on what you should do in order to have a clean looking code. 
 
-# Short Gameplay clip - (coming after I complete bonus challenges for Scene2)
-
-In Unity Learn, there are some game logic challenges that are completely optional, they go from easy to hard, and generally include things that are beyond the scope of the educational material\ 
-I find it fun to complete them, I will soon complete them when I have some spare time, and when I do, I will put a gameplay video here
-
 # Game mechanics & Other on-screen actions using C# Scripting in this step by step tutorial
 Input Systems, vertical and horizontal input\
 Usage of transform functions like transform.rotate, transform.translate\

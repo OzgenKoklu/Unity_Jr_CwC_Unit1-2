@@ -490,8 +490,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 129bafdfec006fa45abda0912fe3dcb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animal: {fileID: 0}
-  player: {fileID: 0}
+  lives: 5
+  score: 0
 --- !u!4 &690352524
 Transform:
   m_ObjectHideFlags: 0
@@ -596,8 +596,24 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.3999419, y: 3.416697, z: 1.0697372}
-  m_Center: {x: 0.009023577, y: 1.2083485, z: 0.034868658}
+  m_Size: {x: 1.3999419, y: 3.416697, z: 0.9276545}
+  m_Center: {x: 0.009023547, y: 1.2083485, z: -0.03617245}
+--- !u!54 &974075246
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974075241}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &992285705
 GameObject:
   m_ObjectHideFlags: 0

@@ -34,13 +34,19 @@ public class SpawnManager : MonoBehaviour
     {
         Vector3 horzontalSpawnPos = new Vector3(HorizontalSpawnPosX[1], 0, Random.Range(2.5f, 15f));
         int animalIndex = Random.Range(0, animalPrefabs.Length);
-        Instantiate(animalPrefabs[animalIndex], horzontalSpawnPos, Quaternion.Euler(0, 90, 0));
+        var Example = Instantiate(animalPrefabs[animalIndex], horzontalSpawnPos, Quaternion.Euler(0, 90, 0));
+        Example.tag = "Aggressive";
+       
+
     }
 
     void HorizontalRightSpawnRandomAnimal()
     {
         Vector3 horzontalSpawnPos = new Vector3(HorizontalSpawnPosX[0], 0, Random.Range(2.5f, 15f));
         int animalIndex = Random.Range(0, animalPrefabs.Length);
-        Instantiate(animalPrefabs[animalIndex], horzontalSpawnPos, Quaternion.Euler(0, -90, 0));
+        var Example = Instantiate(animalPrefabs[animalIndex], horzontalSpawnPos, Quaternion.Euler(0, -90, 0));
+        Example.tag = "Aggressive";
+     
+
     }
 }
